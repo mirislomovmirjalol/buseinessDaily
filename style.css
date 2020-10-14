@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #212121;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    letter-spacing: -0.353846px;
+}
+
+p {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    letter-spacing: -0.323077px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    letter-spacing: -0.323077px;
+    color: #000000;
+}
+
+h4 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.3px;
+    color: #212121;
+}
+
+h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.107692px;
+    color: #F7B500;
+}
+
+small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    color: #9B9B9B;
+    display: block;
+}
+
+nav {
+    background: #FCFCFC;
+}
+
+img {
+    object-fit: cover;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+nav a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #000000!important;
+    transition: background-color ease 0.3s;
+}
+
+a:hover {
+    background-color: #f0f0f0!important;
+}
+
+.nav-logo {
+    font-weight: 800;
+}
+
+.nav-logo-text {
+    font-weight: 700;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F7B500;
+}
+
+.nav-input {
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0%;
+}
+
+.btn-icon {
+    background-color: #FCFCFC;
+    border-radius: 0;
+    color: #000000;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav2 {
+    margin-top: 0;
+    padding-top: 0!important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.nav2 li a {
+    color: #00000050!important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.nav2 .nav-active {
+    color: #000000!important;
+    font-weight: 600;
+}
+
+.nav2 .nav-ul::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #000000;
+    transition: width .3s;
+}
+
+.text-color {
+    color: #F7B500;
+}
+
+.break-line {
+    border: 2px solid #000;
+    width: 100%;
+    border-radius: 20px;
+}
+.break-line2 {
+    border: 1px solid #000;
+    border-style: dashed;
+    width: 100%;
+    height: 0;
+}

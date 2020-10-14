@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BuseinessDaily</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font family link-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light py-3" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand nav-logo js-scroll-trigger " href="#page-top">Buseiness <span
+                    class="nav-logo-text">Daily</span></a>
+            <form class="form-inline ml-5 d-none d-lg-block w-40  d-xl-block">
+                <div class="input-group input-group-newsletter">
+                    <input type="text" class="form-control pr-5 nav-input" placeholder="Enter email..."
+                        aria-label="Enter email..." aria-describedby="submit-button">
+                    <div class="input-group-append">
+                        <button class="btn btn-icon" type="button" id="submit-button">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                <path fill-rule="evenodd"
+                                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item w-100 m-auto"><a class="nav-link js-scroll-trigger w-100" href="#">О нас</a>
+                    </li>
+                    <li class="nav-item w-100 m-auto"><a class="nav-link js-scroll-trigger w-100" href="#">Подписка</a>
+                    </li>
+                    <li class="nav-item w-100 m-auto"><a class="nav-link js-scroll-trigger w-100" href="#">Реклама</a>
+                    </li>
+                    <li class="nav-item w-100 m-auto"><a class="nav-link js-scroll-trigger w-100" href="#">Обратная
+                            связь</a></li>
+                    <li class="nav-item w-100 m-auto"><a class="nav-link js-scroll-trigger w-100" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar d-none d-lg-block navbar-expand-lg navbar-light nav2">
+        <div class="container">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item nav-ul"><a class="nav-link nav-active js-scroll-trigger" href="#">Главная</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger ml-3" href="#">Торги</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger ml-3" href="#">Итоги торги</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger ml-3" href="#">Банкротства</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger ml-3" href="#">Объявления</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger ml-3" href="#">Аналитическая статья </a></li>
+                <li class="nav-item">
+                    <div class="dropdown ml-3">
+                        <button class="btn nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Наши издания <span class="text-color"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                    class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg></span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Газета биржа </a>
+                            <a class="dropdown-item" href="#">Бизнес эксперт журнал </a>
+                            <a class="dropdown-item" href="#">UZEX хабарлари</a>
+                            <a class="dropdown-item" href="#">E-auksion</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger ml-5" href="#"><span><svg width="1em"
+                                height="1em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
+                                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                <path fill-rule="evenodd"
+                                    d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+                            </svg></span> Вход</a></li>
+                <li class="nav-item">
+                    <div class="dropdown ml-4">
+                        <button class="btn nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Русский<span class="text-color"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                    class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg></span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">gsdfgdsgf</a>
+                            <a class="dropdown-item" href="#">gdsgfgdgfs</a>
+                            <a class="dropdown-item" href="#">fhskafhkasfd</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- header -->
+
+    <header>
+        <div class="container">
+            <hr class="break-line">
+            <div class="row my-2">
+                <div class="col-lg-4">
+                    <img src="./img/post1.jpg" class="w-100" height="300px" alt="" srcset="">
+                </div>
+                <div class="col-lg-4 w-100">
+                    <h5 class="my-2">
+                        Объявления
+                    </h5>
+                    <h2>
+                        Об утверждении Графика проведения обучения в торговых системах биржи и аттестации
+                        (переаттестации) трейдеров
+                    </h2>
+                    <small class="my-3">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                            <path fill-rule="evenodd"
+                                d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        17.02.2020
+                    </small>
+                    <h3>
+                        Утвержден График проведения обучения в торговых системах биржи и аттестации (переаттестации)
+                        трейдеров Членов Биржи АО РФБ «Тошкент» на 2020 год.
+                    </h3>
+                </div>
+                <div class="col-lg-4 bg-light">
+                    <!-- kurs birji -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- last news -->
+
+    <section>
+        <div class="container mt-3">
+            <div class="d-flex justify-content-between">
+                <h2>
+                    Последние новости
+                </h2>
+                <a class="btn text-primary" href="#">
+                    Еще
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <h5>
+                        Торги
+                    </h5>
+                    <a href="#">
+                        <h4>
+                            Об утверждении Графика проведения обучения в торговых системах биржи и аттестации
+                            (переаттестации) трейдеров
+                        </h4>
+                    </a>
+                    <small>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                            <path fill-rule="evenodd"
+                                d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        2 мин. назад
+                    </small>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <h5>
+                        Итоги торги
+                    </h5>
+                    <a href="#">
+                        <h4>
+                            Новый выпуск облигаций СП АО "Uzbek Leasing International A.O."
+                        </h4>
+                    </a>
+                    <small>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                            <path fill-rule="evenodd"
+                                d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        5 мин. назад
+                    </small>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <h5>
+                        Торги
+                    </h5>
+                    <a href="#">
+                        <h4>
+                            О предстоящей биржевой сделке в режиме переговорного аукциона
+                        </h4>
+                    </a>
+                    <small>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                            <path fill-rule="evenodd"
+                                d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        7 мин. назад
+                    </small>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <h5>
+                        Торги
+                    </h5>
+                    <a href="#">
+                        <h4>
+                            О предстоящей биржевой сделке в режиме переговорного аукциона
+                        </h4>
+                    </a>
+                    <small>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                            <path fill-rule="evenodd"
+                                d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        11 мин. назад
+                    </small>
+                </div>
+            </div>
+            <hr class="break-line2">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <h5>
+                        Аналитическая статья
+                    </h5>
+                    <a href="#">
+                        <h4>
+                            О предстоящей биржевой сделке в режиме переговорного аукциона 
+                        </h4>
+                    </a>
+                    <small>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                            <path fill-rule="evenodd"
+                                d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        30 мин. назад
+                    </small>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <h5>
+                        Аналитическая статья
+                    </h5>
+                    <a href="#">
+                        <h4>
+                            Объявление о проведении конкурса на должность заместителя Председателя правления АО РФБ «Тошкент» 
+                        </h4>
+                    </a>
+                    <small>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                            <path fill-rule="evenodd"
+                                d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        1 час назад
+                    </small>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <h5>
+                        Аналитическая статья
+                    </h5>
+                    <a href="#">
+                        <h4>
+                            О включении ценных бумаг АО "Газавтоматика" в биржевой котировальный лист РФБ "Тошкент" 
+                        </h4>
+                    </a>
+                    <small>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                            <path fill-rule="evenodd"
+                                d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        1 час назад
+                    </small>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <h5>
+                        Объявления
+                    </h5>
+                    <a href="#">
+                        <h4>
+                            Объявление о намерении реализации портфельных акций 
+                        </h4>
+                    </a>
+                    <small>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                            <path fill-rule="evenodd"
+                                d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        2 часа назад
+                    </small>
+                </div>
+            </div>
+            <hr class="break-line">
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
